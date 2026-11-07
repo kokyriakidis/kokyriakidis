@@ -11,8 +11,7 @@ variant calling**, in C++, Python and Mojo.
   against 94.41% for HiPhase.
 - **[Shasta](https://github.com/paoloshasta/shasta)**: core developer of the de novo assembler for Oxford Nanopore
   reads behind NIH CARD's Napu pipeline.
-- **sporos**: library for the seeds that mappers and aligners start from (minimizers, syncmers, MEMs, MUMs,
-  SMEMs). SMEMs 4.8× faster than minibwa; MEMs and MUMs 4.2–43× faster than MUMmer4, with identical output.
+- **sporos**: seeding library for read mappers and aligners (minimizers, syncmers, MEMs, MUMs, SMEMs). SMEMs 4.8× faster than minibwa; MEMs and MUMs 4.2–43× faster than MUMmer4, with identical output.
 - **plegma**: fast partial-order multiple sequence alignment. In Shasta2's local
   assemblies it leaves 40% fewer consensus errors than abPOA, and in pgphase it makes 7× fewer false heterozygous calls.
 - **karan**: exact pairwise sequence alignment for the CPU and the GPU,
